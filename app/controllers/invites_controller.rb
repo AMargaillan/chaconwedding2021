@@ -4,5 +4,11 @@ class InvitesController < ApplicationController
   
   def details
   end
+
+  def registry
+  end
+
+  def rsvp
+  end
   
 end

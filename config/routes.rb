@@ -3,4 +3,6 @@ Rails.application.routes.draw do
 
   root 'invites#index'
   get '/details' => 'invites#details'
+  get '/registry' => 'invites#registry'
+  get '/rsvp' => 'invites#rsvp'
 end
